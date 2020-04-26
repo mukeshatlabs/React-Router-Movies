@@ -42,6 +42,7 @@ body {
 
 .saved-movie {
   margin: 0 10px;
+  flex-direction: column;
 }
 .saved-active {
   color: blue;
@@ -60,6 +61,7 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  cursor: pointer;
 }
 .save-button:hover {
   background-color: green;
